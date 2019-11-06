@@ -7,6 +7,7 @@ import re
 import sys
 
 # Complete the kangaroo function below.
+
 def kangaroo(x1, v1, x2, v2):
 
     f_kan = x1
@@ -16,7 +17,7 @@ def kangaroo(x1, v1, x2, v2):
         s_kan += v2
         if f_kan == s_kan:
             return("YES")
-            break
+        break
     else:
         return("NO")
 
