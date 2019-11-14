@@ -13,8 +13,8 @@ def extraLongFactorials(n):
     # 5 ! = 5*4! so, we intilize counter with n
     counter = n
     # apply reverse loop in reverse order till 1 ans starts at n-1
-    for i in range(n-1,0,-1):
-        counter *= i # multiply i with counter
+    for i in range(n-1, 0, -1):
+        counter *= i  # multiply i with counter
     # when loop overs we get factorial of a given number
     print(counter)
     return counter
