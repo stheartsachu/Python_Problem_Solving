@@ -18,7 +18,7 @@ def minimumNumber(n, password):
     ar = [0, 0, 0, 0]  # ["digit","lower-case","upper-case","special-character"]
 
     for i in password:
-        if i in numbers: # if i is number then, increment the first index of array
+        if i in numbers:  # if i is number then, increment the first index of array
             ar[0] += 1
         if i in lower_case: # if i is lower case then, increment the second index of                                    # array
             ar[1] += 1
